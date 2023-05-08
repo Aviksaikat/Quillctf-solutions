@@ -6,7 +6,9 @@
 ---
 
 
-| Challenge                                                     | Category | Type | 
-| ------------------------------------------------------------- | -------- | ---- |
-| [D31eg4t3](https://github.com/Aviksaikat/D31eg4t3-quillctf-brownie) |Solidity Security          | Easy     |
-| [Road Closed](https://github.com/Aviksaikat/RoadClosed-quillctf-brownie) | Solidity Security | Easy |
+Challenge                                                     | Category            | Type 
+------------------------------------------------------------- | ------------------- | ---- 
+[D31eg4t3](https://github.com/Aviksaikat/D31eg4t3-quillctf-brownie) | Solidity Security   | Easy 
+[Road Closed](https://github.com/Aviksaikat/RoadClosed-quillctf-brownie) | Solidity Security   | Easy 
+[Confidential Hash](https://github.com/Aviksaikat/Confidential-Hash-quillctf-brownie) | Solidity Security   | Easy
+

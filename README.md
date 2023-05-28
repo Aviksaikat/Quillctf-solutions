@@ -12,4 +12,5 @@ Challenge                                                     | Category        
 [Road Closed](https://github.com/Aviksaikat/RoadClosed-quillctf-brownie) | Solidity Security   | Easy 
 [Confidential Hash](https://github.com/Aviksaikat/Confidential-Hash-quillctf-brownie) | Solidity Security   | Easy
 [Arbitrage](https://github.com/Aviksaikat/Arbitrage-quillctf-brownie) | DeFi Security   | Easy
+[Private Club](Private_Club_DONE) | Solidity Security | Easy
 

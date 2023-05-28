@@ -13,4 +13,5 @@ Challenge                                                     | Category        
 [Confidential Hash](https://github.com/Aviksaikat/Confidential-Hash-quillctf-brownie) | Solidity Security   | Easy
 [Arbitrage](https://github.com/Aviksaikat/Arbitrage-quillctf-brownie) | DeFi Security   | Easy
 [Private Club](Private_Club_DONE) | Solidity Security | Easy
-
+[Predictable NFT](Predictable_NFT_DONE) | Solidity Security | Easy
+[Voting Machine](Voting_Machine_DONE) | DeFi Security | Medium

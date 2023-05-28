@@ -213,7 +213,7 @@ contract PredictableNFTTest is Test {
 - We have our imports as usual. I'm importing the `INFT` interface as well. Then in the Test contract we are setting up the interface instance & hacker account. First we are forking `goerli` so that we can work locally with out api. Then we are loading the contract from the address like this `nft = INFT(0xFD3CbdbD9D1bBe0452eFB1d1BFFa94C8468A66fC);`. Our goal is to mint the NFT within 100 blocks. So in the `test()` we have a `for` loop to check so. Now as I mentioned to mint type `3` we need the ans to be `>` 90. We can literally check each iteration to see the result of the hash. 
 - We are taking a variable of type uint256 `jadu` & just copy pasting the check expect I'm using `abi.encode`, why? That's because `abi.encodePacked` does't add any padding & if 2 dynamic data types are together then it can lead to `hash collision` to high probability the original contract haven't used this. Moving on we are checking if the last 2 digits of the `jadu` var is `>` or not. Something `%` 100 == `last 2 digits`
 
-![](/assets/p-nft1.png)
+![](assets/p-nft1.png)
 
 - If so then only we are going to mint because as we already know the outcome so know we are going to mint type `3` NFT. The rest is for debugging purpose. The `assert` statement is checking if the type is `3` or not. So let's run it.
 - Command:
@@ -221,7 +221,7 @@ contract PredictableNFTTest is Test {
 forge test --match-path test/hack.t.sol -vvv
 ```
 
-![](/assets/p-nft2.png)
+![](assets/p-nft2.png)
 
 
 # Brownie
@@ -337,4 +337,4 @@ attacker = accounts.at(
 ```
 - Then you have to send `ETH` to this. By default ganache will not give this account any `ETH`. That's it the logic is same.
 
-![](/assets/p-nft3.png)
+![](assets/p-nft3.png)
